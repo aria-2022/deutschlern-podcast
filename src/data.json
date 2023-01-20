@@ -1,0 +1,84 @@
+  { 
+    "user": [
+    {
+      "id": 1,
+      "name": "Paulos Antoniou",
+      "password": "xxxx",
+      "email": "paulos@gmail.com",
+      "subscriber": true
+    },
+    {
+      "id": 2,
+      "name": "Veronica Vladimirovna",
+      "password": "xxxx",
+      "email": "veronica@gmail.com",
+      "subscriber": false
+    },
+    {
+      "id": 3,
+      "name": "Laura Marin-Elena",
+      "password": "xxxx",
+      "email": "laura@gmail.com",
+      "subscriber": false
+    },
+    {
+      "id": 4,
+      "name": "Svitlana Yarish",
+      "password": "xxxx",
+      "email": "svitlana@gmail.com",
+      "subscriber": true
+    }
+    ],
+
+    "podcast": [
+    {
+    "podcastId": 1,
+    "title": "#podcast 1: 03-min-deutsch-01-ukraine",
+    "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+    "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "speakers": ["Maria", "Christof"],
+    "topics": ["food", "traveling", "weather"],
+    "date": "10/01/2023",
+    "audio": "https://docs.google.com/uc?id=1M4V2GHEWIOzF2YQoiAYGH26-FBVn47PS&export=download"
+    },
+    { 
+  "podcastId": 2,
+  "title": "#podcast 2: 03-min-deutsch-02-kuenstliche_intelligenz",
+  "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+  "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  "speakers": ["Maria"],
+  "topics": ["seasons", "politics", "colors"],
+  "date": "11/01/2023",
+  "audio": "https://docs.google.com/uc?id=1smxqPQ5oSljtb-KbGbVF5ZoIIfstXVhJ&export=download"
+ },
+ {
+  "podcastId": 3,
+  "title": "#podcast 3: 03-min-deutsch-03-jahreszeiten",
+  "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+  "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  "speakers": ["Maria", "Christof"],
+  "topics": ["languages", "countries", "subjects"],
+  "date": "12/01/2023",
+  "audio": "https://docs.google.com/uc?id=1YINgGPDUJfbSanwa089E4yu8ccTF_u_B&export=download"
+},
+{ 
+"podcastId": 4,
+"title": "#podcast 4: 03-min-deutsch-04-entschuldigung",
+"img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+"text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+"speakers": ["Maria", "Christof"],
+"topics": ["cars", "hobby"],
+"date": "13/01/2023",
+"audio": "https://docs.google.com/uc?id=1gDkD_XiKYJ8deA4WzqKeITQKX6UuNHzo&export=download"
+},
+{
+  "podcastId": 5,
+  "title": "#podcast 5: 03-min-deutsch-05-underconstruction",
+  "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+  "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+  "speakers": ["Maria", "Christof"],
+  "topics": ["friends", "family"],
+  "date": "14/01/2023"
+}
+]
+}

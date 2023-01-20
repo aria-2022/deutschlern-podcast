@@ -1,0 +1,49 @@
+{
+    "Podcast": [
+    {
+    "podcastId": 1,
+    "title": "#podcast 1",
+    "img": "https://images.unsplash.com/photo-1673458028748-b2d3012e2201?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "text": "Lorem Ipsum ist seit dem 15. Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannter Drucker eine Galeere von Typen nahm und daraus ein Schriftmusterbuch machte. Es hat nicht nur fünf Jahrhunderte überlebt, sondern auch den Sprung in den elektronischen Schriftsatz ein und blieb im Wesentlichen unverändert. Es wurde in den 1960er Jahren mit der Veröffentlichung von Letraset-Blättern populär, die enthalten.",
+    "Sprecher": ["Maria", "Chris"],
+    "Themen": ["Essen", "Reisen", "Wetter"],
+    "Datum": "01.10.2023"
+    },
+    {
+  "podcastId": 2,
+  "title": "#podcast 2",
+  "img": "https://images.unsplash.com/photo-1673458028748-b2d3012e2201?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+  "text": "Lorem Ipsum ist seit dem 15. Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannter Drucker eine Galeere von Typen nahm und daraus ein Schriftmusterbuch machte. Es hat nicht nur fünf Jahrhunderte überlebt, sondern auch den Sprung in den elektronischen Schriftsatz ein und blieb im Wesentlichen unverändert. Es wurde in den 1960er Jahren mit der Veröffentlichung von Letraset-Blättern populär, die enthalten.",
+  "Sprecher": ["Maria"],
+  "Themen": ["Jahreszeiten", "Politik", "Farben"],
+  "Datum": "01.11.2023"
+ },
+ {
+  "podcastId": 3,
+  "title": "#podcast 3",
+  "img": "https://images.unsplash.com/photo-1673458028748-b2d3012e2201?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+  "text": "Lorem Ipsum ist seit dem 15. Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannter Drucker eine Galeere von Typen nahm und daraus ein Schriftmusterbuch machte. Es hat nicht nur fünf Jahrhunderte überlebt, sondern auch den Sprung in den elektronischen Schriftsatz ein und blieb im Wesentlichen unverändert. Es wurde in den 1960er Jahren mit der Veröffentlichung von Letraset-Blättern populär, die enthalten.",
+  "Sprecher": ["Maria", "Chris"],
+  "Themen": ["Sprachen", "Länder", "Fächer"],
+  "Datum": "01.12.2023"
+},
+{
+"podcastId": 4,
+"title": "#podcast 4",
+"img": "https://images.unsplash.com/photo-1673458028748-b2d3012e2201?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+"text": "Lorem Ipsum ist seit dem 15. Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannter Drucker eine Galeere von Typen nahm und daraus ein Schriftmusterbuch machte. Es hat nicht nur fünf Jahrhunderte überlebt, sondern auch den Sprung in den elektronischen Schriftsatz ein und blieb im Wesentlichen unverändert. Es wurde in den 1960er Jahren mit der Veröffentlichung von Letraset-Blättern populär, die enthalten.",
+"Sprecher": ["Maria"],
+"Themen": ["Autos", "Hobby"],
+"Datum": "13.01.2023"
+},
+{
+  "podcastId": 5,
+  "title": "#podcast 5",
+  "img": "https://images.unsplash.com/photo-1673458028748-b2d3012e2201?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+  "text": "Lorem Ipsum ist seit dem 15. Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannter Drucker eine Galeere von Typen nahm und daraus ein Schriftmusterbuch machte. Es hat nicht nur fünf Jahrhunderte überlebt, sondern auch den Sprung in den elektronischen Schriftsatz ein und blieb im Wesentlichen unverändert. Es wurde in den 1960er Jahren mit der Veröffentlichung von Letraset-Blättern populär, die enthalten.",
+  "Sprecher": ["Maria", "Chris"],
+  "Themen": ["Freunde", "Familie"],
+  "Datum": "14.01.2023"
+}
+]
+}
