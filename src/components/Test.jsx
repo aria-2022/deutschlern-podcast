@@ -60,12 +60,24 @@
           <img src={i.img} alt="pic" height={100} width={100} /> */}
 
 
+                {/* <Audio media={audio1} />
+      <Audio media={audio2} />
+      <Audio media={audio3} />
+      <Audio media={audio4} /> */}
+
+      // const audio1 = require('../assets/a1.mp3')
+// const audio2 = require('../assets/a2.mp3')
+// const audio3 = require('../assets/a3.mp3')
+// const audio4 = require('../assets/a4.mp3')
+
+//---------------------------------------------------------------------------
+
 // from Home.jsx
         {/* <p className="mb-5">Provident cupiditate provident cupiditate provident cupiditate</p> */}
 
         {/* <div className="hero-overlay bg-opacity-60"></div> */}
 
-
+//-------------------------------------------------------------------------
 // from Navbar
     {/* <div className="dropdown">
 

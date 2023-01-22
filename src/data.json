@@ -5,7 +5,7 @@
       "name": "Paulos Antoniou",
       "password": "xxxx",
       "email": "paulos@gmail.com",
-      "subscriber": true
+      "subscriber": false
     },
     {
       "id": 2,
@@ -36,9 +36,9 @@
     "title": "#podcast 1: 03-min-deutsch-01-ukraine",
     "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
     "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    "speakers": ["Maria", "Christof"],
+    "speakers": "Christof",
     "topics": ["food", "traveling", "weather"],
-    "date": "10/01/2023",
+    "date": "10 January 2023",
     "audio": "https://docs.google.com/uc?id=1M4V2GHEWIOzF2YQoiAYGH26-FBVn47PS&export=download"
     },
     { 
@@ -46,9 +46,9 @@
   "title": "#podcast 2: 03-min-deutsch-02-kuenstliche_intelligenz",
   "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
   "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  "speakers": ["Maria"],
+  "speakers": "Maria",
   "topics": ["seasons", "politics", "colors"],
-  "date": "11/01/2023",
+  "date": "11 January 2023",
   "audio": "https://docs.google.com/uc?id=1smxqPQ5oSljtb-KbGbVF5ZoIIfstXVhJ&export=download"
  },
  {
@@ -58,7 +58,7 @@
   "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   "speakers": ["Maria", "Christof"],
   "topics": ["languages", "countries", "subjects"],
-  "date": "12/01/2023",
+  "date": "12 January 2023",
   "audio": "https://docs.google.com/uc?id=1YINgGPDUJfbSanwa089E4yu8ccTF_u_B&export=download"
 },
 { 
@@ -68,7 +68,7 @@
 "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
 "speakers": ["Maria", "Christof"],
 "topics": ["cars", "hobby"],
-"date": "13/01/2023",
+"date": "13 January 2023",
 "audio": "https://docs.google.com/uc?id=1gDkD_XiKYJ8deA4WzqKeITQKX6UuNHzo&export=download"
 },
 {
@@ -78,7 +78,7 @@
   "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   "speakers": ["Maria", "Christof"],
   "topics": ["friends", "family"],
-  "date": "14/01/2023"
+  "date": "14 January 2023"
 }
 ]
 }

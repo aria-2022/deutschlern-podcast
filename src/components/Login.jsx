@@ -3,7 +3,7 @@ import { AppContext } from "../App";
 import { useNavigate, Link } from "react-router-dom";
 
 function Login() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const { setUser, data } = useContext(AppContext);
 
   function submitHandler(e) {
@@ -15,11 +15,11 @@ function Login() {
       (i) =>
         i.email == e.target.email.value && i.password == e.target.password.value
     );
-    if(foundUser){
-      setUser(foundUser)
-      navigate('/podcast')
-    }else {
-      alert("Please enter valid data")
+    if (foundUser) {
+      setUser(foundUser);
+      navigate("/podcast");
+    } else {
+      alert("Please enter valid data");
     }
   }
   return (
@@ -60,9 +60,8 @@ function Login() {
             <div className="form-control mt-6">
               <button className="btn">Login</button>
             </div>
-            {/* how to link a href to LOGIN page? */}
             <p className="py-2 label-text-alt">Not registered yet?</p>
-            <Link to='/signup' className="label-text-alt link link-hover">
+            <Link to="/signup" className="label-text-alt link link-hover">
               Sign Up
             </Link>
           </form>
