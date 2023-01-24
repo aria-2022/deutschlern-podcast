@@ -10,9 +10,10 @@
 }
 body {
     --tw-bg-opacity: 1;
-    background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+    background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity-base-500));
 }
 #root {
     width: 100%;
     height: 100%;
+    text-align: justify;
 }

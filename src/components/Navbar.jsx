@@ -38,7 +38,7 @@ function Navbar() {
             </li>
             <li>
               <a>
-                <Link to={"/aboutus"}>ABOUT US</Link>
+                <Link to={"/aboutus"}>ÜBER MICH</Link>
               </a>
             </li>
             <li>
@@ -48,15 +48,20 @@ function Navbar() {
             </li>
             <li>
               <a>
-                <Link to={"/signup"}>SIGN UP</Link>
+                <Link to={"/signup"}>SIGNUP</Link>
+              </a>
+            </li>
+            <li>
+              <a>
+                <Link to={"/contactus"}>KONTAKT</Link>
               </a>
             </li>
           </ul>
         </div>
 
+
+        <Link to={"/"} className="btn btn-ghost normal-case text-xl"> 
         <img src="logo.png" className="logo" width={50} />
-        <Link to={"/"} className="btn btn-ghost normal-case text-xl">
-          C.LÖWE LOGO
         </Link>
       </div>
 
@@ -69,18 +74,19 @@ function Navbar() {
             <Link to={"/podcast"}>PODCAST</Link>
           </li>
           <li>
-            <Link to={"/aboutus"}>ABOUT US</Link>
+            <Link to={"/aboutus"}>ÜBER MICH</Link>
           </li>
           <li>
             <Link to={"/login"}>LOGIN</Link>
           </li>
           <li>
-            <Link to={"/signup"}>SIGN UP</Link>
+            <Link to={"/signup"}>SIGNUP</Link>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">CONTACT US</a>
+        <li>
+        {/* <Link to={"/contactus"}>CONTACT US</Link> */}
+        <Link to={"/contactus"}><a className="btn">KONTAKT</a></Link> 
+        </li>
       </div>
     </div>
   );

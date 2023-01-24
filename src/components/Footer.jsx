@@ -6,14 +6,15 @@ function Footer() {
     <div>
       <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <div className="grid grid-flow-col gap-4">
-        <Link to="/Aboutus" className="label-text-alt link link-hover"><a className="link link-hover">About us</a></Link>
-        <Link to="/Podcast" className="label-text-alt link link-hover"><a className="link link-hover">Podcast</a></Link>
-        <Link to="/Contact" className="label-text-alt link link-hover"><a className="link link-hover">Contact Us</a></Link>
-
-
-
-
-
+          <Link to="/Aboutus" className="label-text-alt link link-hover">
+            <a className="link link-hover">Über Mich</a>
+          </Link>
+          <Link to="/Podcast" className="label-text-alt link link-hover">
+            <a className="link link-hover">Podcast</a>
+          </Link>
+          <Link to="/Contactus" className="label-text-alt link link-hover">
+            <a className="link link-hover">Kontakt</a>
+          </Link>
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">

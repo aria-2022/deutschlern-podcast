@@ -1,8 +1,13 @@
 
 h2 {
   color: yellow;
+  --bg-warning: hsl(var(--wa));
 }
 h1 {
-  color: rgba(0, 0, 0, 0.842);
+  color: rgba(0, 0, 0, 0.733);
+}
+.picture{
+  background-size: cover;
+  background-position: center;
 }
 

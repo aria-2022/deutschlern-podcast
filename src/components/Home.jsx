@@ -12,15 +12,15 @@ function Home() {
   return (
     <>
       <div
-        className="hero min-h-screen"
+        className="picture hero min-h-screen lg:card-side bg-base-200 shadow-xl"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGlvbiUyMGhlYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60')`,
         }}
       >
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">LEARN GERMAN BY PODCAST</h1>
-            <h2 className="mb-5 text-5xl font-bold">REAL LIFE CONVERSATION</h2>
+            <h1 className="mb-5 text-5xl font-bold">DEUTSCH LERNEN MIT PODCAST</h1>
+            <h2 className="mb-5 text-5xl font-bold">3 MINUTEN DEUTSCH</h2>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ function Home() {
         <input type="checkbox" />
         <div className="collapse-title text-xl font-medium text-center">
           <a role="button" className="btn text-center">
-            🎧 PODCAST ALL EPISODES
+            🎧 PODCAST HÖREN
           </a>
         </div>
         <div className="collapse-content text-center">
