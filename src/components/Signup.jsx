@@ -9,31 +9,34 @@ function Signup() {
 
   function submitHandler(e) {
     e.preventDefault();
-    
 
-    let foundUser = users.find(i => i.email == e.target.email.value);
+    let foundUser = users.find((i) => i.email == e.target.email.value);
     if (foundUser) {
-      alert("User is exist")
-      navigate('/login')
+      alert("Benutzer ist vorhanden");
+      navigate("/login");
     } else {
-      
-      axios.post("http://localhost:3000/user",{
+      axios.post("http://localhost:3000/user", {
         name: e.target.name.value,
-      password: e.target.password.value,
-      email: e.target.email.value,
-      subscriber: false
-      })
-      axios("http://localhost:3000/user").then(i => setUsers(i.data))
-      alert("User been created.");
+        password: e.target.password.value,
+        email: e.target.email.value,
+        subscriber: false,
+      });
+      axios("http://localhost:3000/user").then((i) => setUsers(i.data));
+      alert("Ein Benutzer wurde erstellt.");
 
-      navigate("/login")
+      navigate("/login");
     }
   }
 
   return (
     <>
       <div className="hero-content hero min-h-screen flex-col lg:flex-colum-reverse">
-        <h1 className="text-3xl">Create Account</h1>
+        <h1 className="text-5xl font-bold text-center">
+          <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-warning relative inline-block">
+            <span class="relative text-white">Create Account</span>
+          </span>
+        </h1>
+        {/* <h1 className="text-3xl">Create Account</h1> */}
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={submitHandler} className="card-body">
             <div className="form-control">

@@ -1,21 +1,25 @@
+import axios from "axios";
 import React from "react";
 const Contactus = () => {
   const [formStatus, setFormStatus] = React.useState("Senden");
   const onSubmit = (e) => {
     e.preventDefault();
-    setFormStatus("Submitting...");
-    const { name, email, message } = e.target.elements;
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    console.log(conFom);
+    setFormStatus("Einreichen...");
+
+    let name = e.target.name.value;
+    let email = e.target.email.value;
+    let message = e.target.message.value;
+    console.log(name, email, message);
+    axios.post("http://localhost:3000/contact", { name, email, message });
   };
   return (
     <>
       <div className="hero-content hero min-h-screen flex-col lg:flex-colum-reverse">
-        <h1 className="mb-3 text-3xl text-center">Kontakt</h1>
+        <h1 className="text-5xl font-bold text-center">
+          <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-warning relative inline-block">
+            <span class="relative text-white">Kontakt</span>
+          </span>
+        </h1>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={onSubmit} className="card-body">
             <div className="mb-3 form-control">
@@ -24,7 +28,7 @@ const Contactus = () => {
               </label>
               <input
                 className="form-control input input-bordered"
-                type="name"
+                type="text"
                 placeholder="full name"
                 name="name"
                 id="name"
@@ -41,6 +45,7 @@ const Contactus = () => {
                 type="email"
                 id="email"
                 required
+                name="email"
               />
             </div>
             <div className="mb-3 form-control">
@@ -50,8 +55,9 @@ const Contactus = () => {
               <textarea
                 className="form-control input input-bordered"
                 placeholder="input text"
-                type="message"
+                type="text"
                 id="message"
+                name="message"
                 required
               />
             </div>

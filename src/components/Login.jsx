@@ -10,12 +10,14 @@ function Login() {
     e.preventDefault();
     console.log(e.target.email.value);
     console.log(e.target.password.value);
+    console.log(users);
 
     let foundUser = users.find(
       (i) =>
         i.email == e.target.email.value && i.password == e.target.password.value
     );
     if (foundUser) {
+      console.log(foundUser);
       setUser(foundUser);
       navigate("/podcast");
     } else {
@@ -25,7 +27,11 @@ function Login() {
   return (
     <>
       <div className="hero-content hero min-h-screen flex-col lg:flex-colum-reverse">
-        <h1 className="text-3xl">Login</h1>
+        <h1 className="text-5xl font-bold text-center">
+          <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-warning relative inline-block">
+            <span class="relative text-white">Login</span>
+          </span>
+        </h1>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={submitHandler} className="card-body">
             <div className="form-control">

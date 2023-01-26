@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function ViewMessages() {
+function ThankYou() {
   return (
-    <div>ViewMessages</div>
+    <div>ThankYou</div>
   )
 }
 
-export default ViewMessages
+export default ThankYou
