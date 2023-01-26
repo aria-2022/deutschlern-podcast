@@ -21,7 +21,7 @@ function Login() {
       setUser(foundUser);
       navigate("/podcast");
     } else {
-      alert("Bitte geben Sie eine gültige E-Mail Adresse an.");
+      alert("Bitte geben Sie eine gültige E-Mail Adresse an. ");
     }
   }
   return (
