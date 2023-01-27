@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 function Podcast() {
-  const { data, user, podcasts } = useContext(AppContext);
+  const {user, podcasts } = useContext(AppContext);
   return (
     <div className="hero-content hero min-h-screen flex-col lg:flex-colum-reverse">
       <div className="flex flex-col space-y-7 w-full border-opacity-50">

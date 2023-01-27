@@ -10,7 +10,7 @@ const Contactus = () => {
     let email = e.target.email.value;
     let message = e.target.message.value;
     console.log(name, email, message);
-    axios.post("http://localhost:3000/contact", { name, email, message });
+    axios.post("https://podcast-app-api.onrender.com/contact", { name, email, message });
   };
   return (
     <>

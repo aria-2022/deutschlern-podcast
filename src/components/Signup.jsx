@@ -5,7 +5,7 @@ import axios from "axios";
 
 function Signup() {
   const navigate = useNavigate();
-  const { setUser, data, users, setUsers } = useContext(AppContext);
+  const {users, setUsers } = useContext(AppContext);
 
   function submitHandler(e) {
     e.preventDefault();
@@ -15,13 +15,13 @@ function Signup() {
       alert("Benutzer ist vorhanden");
       navigate("/login");
     } else {
-      axios.post("http://localhost:3000/user", {
+      axios.post("https://podcast-app-api.onrender.com/user", {
         name: e.target.name.value,
         password: e.target.password.value,
         email: e.target.email.value,
         subscriber: false,
       });
-      axios("http://localhost:3000/user").then((i) => setUsers(i.data));
+      axios("https://podcast-app-api.onrender.com/user").then((i) => setUsers(i.data));
       alert("Ein Benutzer wurde erstellt.");
 
       navigate("/login");
